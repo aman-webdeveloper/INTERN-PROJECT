@@ -1,4 +1,4 @@
-# Random IT Solutions Website
+# INTERNSHIP PROJECT
 
 ## About
 This is a responsive IT solutions e-commerce website for Random IT Solutions. The website includes:
