@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktops - Random IT Solutions</title>
+    <meta name="description"
+        content="Explore our powerful desktop computers for gaming, workstations, and business use. High-performance systems with the latest technology and competitive pricing.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" data-testid="navbar-main">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                 <div class="nav-logo" data-testid="nav-logo">
+                    <!-- <i class="fas fa-laptop-code"></i> -->
+                    <img src="/public/logo.jpeg" alt=" Logo" class="logo-img">
+                    <span>Random IT Solutions</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" data-testid="nav-menu-desktop">
+                    <a href="../index.html" data-testid="link-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-contact">Contact</a>
+                </div>
+
+                <!-- Desktop Actions -->
+                <div class="nav-actions" data-testid="nav-actions-desktop">
+                    <button id="theme-toggle" class="theme-toggle" data-testid="button-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-get-quote">Get Quote</a>
+                </div>
+
+                <!-- Mobile Actions -->
+                <div class="nav-mobile" data-testid="nav-mobile">
+                    <button id="mobile-theme-toggle" class="theme-toggle" data-testid="button-mobile-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-toggle" class="hamburger" data-testid="button-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu" data-testid="nav-menu-mobile">
+                <div class="mobile-menu-content">
+                    <a href="../index.html" data-testid="link-mobile-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-mobile-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-mobile-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-mobile-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-mobile-contact">Contact</a>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-mobile-get-quote">Get
+                        Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" data-testid="section-page-header">
+        <div class="container">
+            <div class="back-button">
+                <a href="../index.html" class="btn btn-secondary" data-testid="button-back-home">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back to Home</span>
+                </a>
+            </div>
+            <h1 class="page-title" data-testid="text-page-title">Desktop Computers</h1>
+            <p class="page-subtitle" data-testid="text-page-subtitle">Powerful desktop systems for workstations and
+                gaming setups</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="product-grid-section" data-testid="section-products">
+        <div class="container">
+            <div class="product-grid">
+                <!-- Desktop 1 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-1">
+                    <img src="/public/desktop/desktopone.png"
+                        alt="Gaming Desktop Ultimate" data-testid="img-product-1">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-1-name">HP 280 G9 MT (B6BP4AT)</h3>
+                        <ul class="product-features" data-testid="list-product-1-features">
+                            <li>Processor: Intel Core i3-12100</li>
+                            <li>RAM: 8GB DDR4</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>OS: DOS</li>
+                            <li>Warranty: 3 Years</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-1">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Desktop 2 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-2">
+                    <img src="/public/desktop/desktop2.png"
+                        alt="Workstation Pro Max" data-testid="img-product-2">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-2-name">HP 280 G9 MT (A72RFPT)</h3>
+                        <ul class="product-features" data-testid="list-product-2-features">
+                            <li>Processor: Intel Core i5-12500</li>
+                            <li>RAM: 8GB DDR4</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>OS: Windows 11 Pro</li>
+                            <li>Warranty: 3 Years</li>
+                        </ul>
+
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-2">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Desktop 3 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-3">
+                    <img src="/public/desktop/desktop3.png"
+                        alt="Business Desktop Compact" data-testid="img-product-3">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-3-name">Lenovo M70t Gen 5 – 12U6S01100</h3>
+                        <ul class="product-features" data-testid="list-product-3-features">
+                            <li>Processor: Intel® Core™ i7-13700</li>
+                            <li>RAM: 16 GB</li>
+                            <li>Storage: 512 GB SSD </li>
+                            <li>OS: No OS (NOS)</li>
+                            <li>Warranty: 3 Years Premier Support</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-3">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Desktop 4 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-4">
+                    <img src="/public/desktop/desktop4.png"
+                        alt="Content Creator Desktop" data-testid="img-product-4">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-4-name">Lenovo M70t Gen 5 – 12U6S01200</h3>
+                        <ul class="product-features" data-testid="list-product-4-features">
+                            <li>Processor: Intel® Core™ i7-13700</li>
+                            <li>RAM: 16 GB</li>
+                            <li>Storage: 512 GB SSD </li>
+                            <li>OS: Windows 11 Pro</li>
+                            <li>Monitor: 22" Included</li>
+                            <li>Accessories: Keyboard & Mouse Included</li>
+                            <li>Warranty: 3 Years Premier Support</li>
+                        </ul>
+
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-4">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Desktop 5 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-5">
+                    <img src="/public/desktop/tablet5.png"
+                        alt="Home Office Desktop" data-testid="img-product-5">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-5-name">Microsoft Surface Pro 11 Ultra 2 –
+                            Platinum – EP2-20022-SP11</h3>
+                        <ul class="product-features" data-testid="list-product-5-features">
+                            <li>Processor: Intel CU7</li>
+                            <li>RAM: 32 GB</li>
+                            <li>Storage: 256 GB SSD</li>
+                            <li>Color: Platinum</li>
+                            <li>Display: 13-inch</li>
+                        </ul>
+
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-5">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Desktop 6 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-6">
+                    <img src="/public/desktop/tablet6.png"
+                        alt="All-in-One Desktop Pro" data-testid="img-product-6">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-6-name">Microsoft Surface Pro 11 Ultra 2 –
+                            Black – EP2-20118-SP11</h3>
+                        <ul class="product-features" data-testid="list-product-6-features">
+                            <li>Processor: Intel CU5</li>
+                            <li>RAM: 16 GB</li>
+                            <li>Storage: 512 GB SSD</li>
+                            <li>Color: Black</li>
+                            <li>Display: 13-inch</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-6">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

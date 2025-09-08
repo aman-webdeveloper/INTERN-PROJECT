@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIS ONLINE </title>
+    <link rel="icon" href="public/logo.jpeg" type="image/png" />
+    <meta name="description"
+        content="Transform your business with cutting-edge technology solutions. From enterprise laptops to security systems, we provide comprehensive IT solutions tailored to your needs.">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Random IT Solutions - Premium Tech Solutions">
+    <meta property="og:description"
+        content="Transform your business with cutting-edge technology solutions. From enterprise laptops to security systems, we provide comprehensive IT solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://randomitsolutions.com">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" data-testid="navbar-main">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="nav-logo" data-testid="nav-logo">
+                    <!-- <i class="fas fa-laptop-code"></i> -->
+                    <img src="public/logo.jpeg" alt="Random IT Solutions Logo" class="logo-img">
+                    <span >Random IT Solutions</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" data-testid="nav-menu-desktop">
+                    <a href="#home" data-testid="link-home">Home</a>
+                    <a href="#products" data-testid="link-products">Products</a>
+                    <a href="#services" data-testid="link-services">Services</a>
+                    <a href="#about" data-testid="link-about">About</a>
+                    <a href="#contact" data-testid="link-contact">Contact</a>
+                </div>
+
+                <!-- Desktop Actions -->
+                <div class="nav-actions" data-testid="nav-actions-desktop">
+                    <button id="theme-toggle" class="theme-toggle" data-testid="button-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#contact" class="btn btn-primary" data-testid="button-get-quote">Get Quote</a>
+                </div>
+
+                <!-- Mobile Actions -->
+                <div class="nav-mobile" data-testid="nav-mobile">
+                    <button id="mobile-theme-toggle" class="theme-toggle" data-testid="button-mobile-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-toggle" class="hamburger" data-testid="button-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu" data-testid="nav-menu-mobile">
+                <div class="mobile-menu-content">
+                    <a href="#home" data-testid="link-mobile-home">Home</a>
+                    <a href="#products" data-testid="link-mobile-products">Products</a>
+                    <a href="#services" data-testid="link-mobile-services">Services</a>
+                    <a href="#about" data-testid="link-mobile-about">About</a>
+                    <a href="#contact" data-testid="link-mobile-contact">Contact</a>
+                    <a href="#contact" class="btn btn-primary" data-testid="button-mobile-get-quote">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-testid="section-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1 class="hero-title" data-testid="text-hero-title">
+                        Premium Tech <span class="text-primary">Solutions</span>
+                    </h1>
+                    <p class="hero-subtitle" data-testid="text-hero-subtitle">
+                        Transform your business with cutting-edge technology solutions. From enterprise laptops to
+                        security systems, we provide comprehensive IT solutions tailored to your needs.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/918448870418" class="btn btn-primary" data-testid="button-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </a>
+                        <a href="#products" class="btn btn-secondary" data-testid="button-browse-products">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Browse Products</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="/public/home-page2.png"
+                        alt="Modern workspace with laptop and monitors" data-testid="img-hero">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section id="products" class="categories" data-testid="section-categories">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-testid="text-categories-title">Product Categories</h2>
+                <p class="section-subtitle" data-testid="text-categories-subtitle">
+                    Discover our comprehensive range of IT solutions designed to meet all your technology needs
+                </p>
+            </div>
+
+            <div class="categories-grid">
+                <div class="category-card" data-aos="fade-up" data-aos-delay="100" data-testid="card-category-laptops">
+                    <img src="public/product-categories/mainlaptop.png" alt="Modern laptops display"
+                        data-testid="img-category-laptops">
+                    <div class="category-content">
+                        <h3 data-testid="text-category-laptops-title">Laptops</h3>
+                        <p data-testid="text-category-laptops-desc">High-performance laptops for business, gaming, and
+                            professional use</p>
+                        <a href="pages\laptops.html" class="btn btn-primary"
+                            data-testid="button-explore-laptops">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-up" data-aos-delay="200" data-testid="card-category-desktops">
+                    <img src="public/product-categories/maindesktop.png" alt="High-end desktop computer setup"
+                        data-testid="img-category-desktops">
+                    <div class="category-content">
+                        <h3 data-testid="text-category-desktops-title">Desktops</h3>
+                        <p data-testid="text-category-desktops-desc">Powerful desktop systems for workstations and
+                            gaming setups</p>
+                        <a href="pages/desktops.html" class="btn btn-primary"
+                            data-testid="button-explore-desktops">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-up" data-aos-delay="300" data-testid="card-category-memory">
+                    <img src="public/product-categories/mainmemeorystorage.png" alt="Memory and storage components"
+                        data-testid="img-category-memory">
+                    <div class="category-content">
+                        <h3 data-testid="text-category-memory-title">Memory & Storage</h3>
+                        <p data-testid="text-category-memory-desc">High-speed SSDs, HDDs, and RAM modules for optimal
+                            performance</p>
+                        <a href="pages/memory-storage.html" class="btn btn-primary"
+                            data-testid="button-explore-memory">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-up" data-aos-delay="100"
+                    data-testid="card-category-peripherals">
+                    <img src="public/product-categories/mainPeripherals.png" alt="Gaming peripherals and accessories"
+                        data-testid="img-category-peripherals">
+                    <div class="category-content">
+                        <h3 data-testid="text-category-peripherals-title">Peripherals</h3>
+                        <p data-testid="text-category-peripherals-desc">Keyboards, mice, monitors, and other essential
+                            computer accessories</p>
+                        <a href="pages/peripherals.html" class="btn btn-primary"
+                            data-testid="button-explore-peripherals">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-up" data-aos-delay="200" data-testid="card-category-security">
+                    <img src="public/product-categories/maincctvsecurity.png" alt="Security camera and CCTV systems"
+                        data-testid="img-category-security">
+                    <div class="category-content">
+                        <h3 data-testid="text-category-security-title">CCTV & Security</h3>
+                        <p data-testid="text-category-security-desc">Advanced security systems and surveillance
+                            solutions</p>
+                        <a href="pages/security.html" class="btn btn-primary"
+                            data-testid="button-explore-security">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-up" data-aos-delay="300" data-testid="card-category-software">
+                    <img src="public/product-categories/mainsoftwarelicense.png"
+                        alt="Software development and licensing" data-testid="img-category-software">
+                    <div class="category-content">
+                        <h3 data-testid="text-category-software-title">Software & License</h3>
+                        <p data-testid="text-category-software-desc">Professional software solutions and licensing for
+                            businesses</p>
+                        <a href="pages/software.html" class="btn btn-primary"
+                            data-testid="button-explore-software">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" data-testid="section-featured">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-testid="text-featured-title">Featured Products</h2>
+                <p class="section-subtitle" data-testid="text-featured-subtitle">
+                    Hand-picked premium products that deliver exceptional performance and value
+                </p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100" data-testid="card-product-ultrabook">
+                    <img src="public\leonvo.png" alt="Ultrabook Pro laptop" data-testid="img-product-ultrabook">
+                    <div class="product-content">
+                        <h4 data-testid="text-product-ultrabook-name">LENOVO L14</h4>
+                        <p class="product-features" data-testid="text-product-ultrabook-features">i5/10th Gen/8Gb/256Gb
+                            SSD</p>
+                        <button class="btn btn-primary" data-testid="button-enquire-ultrabook">Enquire Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200" data-testid="card-product-gaming">
+                    <img src="public\macbookair.png" alt="Gaming desktop workstation" data-testid="img-product-gaming">
+                    <div class="product-content">
+                        <h4 data-testid="text-product-gaming-name">MACBOOK AIR</h4>
+                        <p class="product-features" data-testid="text-product-gaming-features">13 inch, 8GB RAM, 256SSD
+                        </p>
+                        <button class="btn btn-primary" data-testid="button-enquire-gaming">Enquire Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300" data-testid="card-product-monitor">
+                    <img src="public\RAM.png" alt="Professional 4K monitor" data-testid="img-product-monitor">
+                    <div class="product-content">
+                        <h4 data-testid="text-product-monitor-name">8GB DDR4 RAM</h4>
+                        <p class="product-features" data-testid="text-product-monitor-features">3200MHz, High
+                            Performance</p>
+                        <button class="btn btn-primary" data-testid="button-enquire-monitor">Enquire Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400"
+                    data-testid="card-product-security-system">
+                    <img src="public\SSD.png" alt="Enterprise network security system"
+                        data-testid="img-product-security-system">
+                    <div class="product-content">
+                        <h4 data-testid="text-product-security-system-name">256GB NVMe SSD</h4>
+                        <p class="product-features" data-testid="text-product-security-system-features">Ultra-fast boot
+                            and load times</p>
+                        <button class="btn btn-primary" data-testid="button-enquire-security-system">Enquire
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services" data-testid="section-services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-testid="text-services-title">Our Services</h2>
+                <p class="section-subtitle" data-testid="text-services-subtitle">
+                    Comprehensive IT services to support your technology infrastructure and business growth
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100" data-testid="card-service-cctv">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code" data-testid="icon-service-cctv"></i>
+                    </div>
+                    <h3 data-testid="text-service-cctv-title">Bulk Laptop Sales & Rentals</h3>
+                    <p data-testid="text-service-cctv-desc">Cost-effective laptop solutions for businesses, educational
+                        institutions, and events with flexible rental options.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200" data-testid="card-service-cable">
+                    <div class="service-icon">
+                        <i class="fas fa-fingerprint" data-testid="icon-service-cctv"></i>
+                    </div>
+                    <h3 data-testid="text-service-cable-title">CCTV & Biometric Installation</h3>
+                    <p data-testid="text-service-cable-desc">Professional security camera systems and biometric access
+                        control installation with ongoing support and maintenance.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300" data-testid="card-service-software">
+                    <div class="service-icon">
+                        <i class="fas fa-headset" data-testid="icon-service-software"></i>
+                    </div>
+                    <h3 data-testid="text-service-software-title">End to End Software Support</h3>
+                    <p data-testid="text-service-software-desc">Complete software lifecycle support from installation to
+                        maintenance and troubleshooting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about" class="why-choose-us" data-testid="section-why-choose">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-testid="text-why-choose-title">Why Choose Random IT Solutions?</h2>
+                <p class="section-subtitle" data-testid="text-why-choose-subtitle">
+                    Trusted by hundreds of businesses for reliable technology solutions and exceptional service
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100" data-testid="card-feature-quality">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt" data-testid="icon-feature-quality"></i>
+                    </div>
+                    <h3 data-testid="text-feature-quality-title">Quality Assured</h3>
+                    <p data-testid="text-feature-quality-desc">All products undergo rigorous quality testing with
+                        comprehensive warranties</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200" data-testid="card-feature-delivery">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake" data-testid="icon-feature-reliable"></i>
+                    </div>
+                    <h3 data-testid="text-feature-delivery-title">Reliable Service</h3>
+                    <p data-testid="text-feature-delivery-desc">Consistent and dependable service across all product
+                        categories</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300" data-testid="card-feature-support">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie" data-testid="icon-feature-support"></i>
+                    </div>
+                    <h3 data-testid="text-feature-support-title">Expert Support</h3>
+                    <p data-testid="text-feature-support-desc">Dedicated technical support team with 10+ years industry
+                        experience</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400" data-testid="card-feature-price">
+                    <div class="feature-icon">
+                        <i class="fas fa-tag" data-testid="icon-feature-price"></i>
+                    </div>
+                    <h3 data-testid="text-feature-price-title">Best Prices</h3>
+                    <p data-testid="text-feature-price-desc">Competitive pricing with bulk discounts and flexible
+                        payment options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" data-testid="section-testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-testid="text-testimonials-title">What Our Clients Say</h2>
+                <p class="section-subtitle" data-testid="text-testimonials-subtitle">
+                    Trusted by businesses and individuals across the country for our reliable IT solutions
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100"
+                    data-testid="card-testimonial-david">
+                    <div class="testimonial-rating" data-testid="rating-testimonial-david">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-testid="text-testimonial-david">
+                        "Dear Random IT Solutions, if you think you won my brand loyalty by providing me a good quality
+                        service, then you are 100% right."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="public\reviewimages\bhaskargodiyal.png" alt="David Chen testimonial photo"
+                            data-testid="img-testimonial-david">
+                        <div>
+                            <h4 data-testid="text-testimonial-david-name">Bhaskar Godiyal</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200"
+                    data-testid="card-testimonial-sarah">
+                    <div class="testimonial-rating" data-testid="rating-testimonial-sarah">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-testid="text-testimonial-sarah">
+                        "Random IT Solutions has an excellent team with very professional and polite staff. Their
+                        services are reliable, quick, and customer-friendly."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="public\reviewimages\amankumar.png" alt="Sarah Johnson testimonial photo"
+                            data-testid="img-testimonial-sarah">
+                        <div>
+                            <h4 data-testid="text-testimonial-sarah-name">Aman Kumar</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300"
+                    data-testid="card-testimonial-michael">
+                    <div class="testimonial-rating" data-testid="rating-testimonial-michael">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-testid="text-testimonial-michael">
+                        Partnering with Random IT Solutions has been seamless. They deliver reliable services with
+                        top-quality products, making them a trusted name for us.
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="public\reviewimages\deepaksingh.png" alt="Michael Rodriguez testimonial photo"
+                            data-testid="img-testimonial-michael">
+                        <div>
+                            <h4 data-testid="text-testimonial-michael-name">Deepak Singh</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta" data-testid="section-cta">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2 class="cta-title" data-testid="text-cta-title">Ready to Upgrade Your Technology?</h2>
+                <p class="cta-subtitle" data-testid="text-cta-subtitle">
+                    Get started with a free consultation and discover how our IT solutions can transform your business
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/1234567890" class="btn btn-light" data-testid="button-whatsapp-consultation">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Consultation</span>
+                    </a>
+                    <a href="tel:+1234567890" class="btn btn-outline" data-testid="button-call-now">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" data-testid="footer-section-company">
+                    <div class="footer-logo" data-testid="footer-logo">
+                        <!-- <i class="fas fa-laptop-code"></i> -->
+                        <img src="public/logo.jpeg" alt="Random IT Solutions Logo" class="logo-img">
+                        <span>Random IT Solutions</span>
+                    </div>
+                    <p data-testid="text-footer-description">
+                        Your trusted partner for premium technology solutions and exceptional IT services.
+                    </p>
+                    <div class="footer-social" data-testid="footer-social">
+                        <a href="https://www.linkedin.com/company/randomitsolutions"
+                            data-testid="link-social-linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/randomitsolutions" data-testid="link-social-instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/randomitsolutions" data-testid="link-social-twitter"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@randomitsolutions" data-testid="link-social-youtube"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section" data-testid="footer-section-products">
+                    <h3 data-testid="text-footer-products-title">Products</h3>
+                    <ul data-testid="list-footer-products">
+                        <li><a href="pages/laptops.html" data-testid="link-footer-laptops">Laptops</a></li>
+                        <li><a href="pages/desktops.html" data-testid="link-footer-desktops">Desktops</a></li>
+                        <li><a href="pages/memory-storage.html" data-testid="link-footer-memory">Memory & Storage</a>
+                        </li>
+                        <li><a href="pages/peripherals.html" data-testid="link-footer-peripherals">Peripherals</a></li>
+                        <li><a href="pages/security.html" data-testid="link-footer-security">Security Systems</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-testid="footer-section-services">
+                    <h3 data-testid="text-footer-services-title">Services</h3>
+                    <ul data-testid="list-footer-services">
+                        <li><a href="#services" data-testid="link-footer-cctv">CCTV Installation</a></li>
+                        <li><a href="#services" data-testid="link-footer-cable">Network Setup & Maintenance</a></li>
+                        <li><a href="#services" data-testid="link-footer-software-support">Software Support</a></li>
+                        <li><a href="#services" data-testid="link-footer-technical">Technical Support</a></li>
+                        <li><a href="#contact" data-testid="link-footer-consultation">Consultation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-testid="footer-section-contact">
+                    <h3 data-testid="text-footer-contact-title">Contact Us</h3>
+                    <!-- <div class="footer-contact" data-testid="footer-contact">
+                        <div class="contact-item" data-testid="contact-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>2nd Floor, M46, Block M, Old DLF Colony, Sector 14, Gurugram, Haryana 122001</span>
+                        </div>
+                        <div class="contact-item" data-testid="contact-phone">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8448870418</span>
+                        </div>
+                        <div class="contact-item" data-testid="contact-email">
+                            <i class="fas fa-envelope"></i>
+                            <span>raghav@randomitsolutions.com</span>
+                        </div>
+                        <div class="contact-item" data-testid="contact-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+91 8448870418</span>
+                        </div>
+                    </div> -->
+                    <div class="footer-contact" data-testid="footer-contact">
+                        <!-- Address -->
+                        <div class="contact-item" data-testid="contact-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="https://www.google.com/maps/place/RANDOM+IT+SOLUTIONS/@28.469569,77.0416664,910m/data=!3m2!1e3!4b1!4m6!3m5!1s0x390d190a304d5ce1:0x543d34f54488ab4f!8m2!3d28.469569!4d77.0442413!16s%2Fg%2F11frdmq4kz?entry=tts"
+                                target="_blank">
+                                2nd Floor, M46, Block M, Old DLF Colony, Sector 14, Gurugram, Haryana 122001
+                            </a>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-item" data-testid="contact-phone">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+918448870418">+91 8448870418</a>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-item" data-testid="contact-email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&to=raghav@randomitsolutions.com"
+                                target="_blank" style="text-decoration: none; color: inherit;">
+                                raghav@randomitsolutions.com
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="footer-bottom" data-testid="footer-bottom">
+                <p data-testid="text-footer-copyright">
+                    &copy; 2025 Random IT Solutions. All rights reserved. | Privacy Policy | Terms of Service
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

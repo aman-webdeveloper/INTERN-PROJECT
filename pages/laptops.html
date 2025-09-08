@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops - Random IT Solutions</title>
+    <meta name="description"
+        content="Discover our premium laptop collection featuring business laptops, gaming notebooks, and ultrabooks with the latest technology and competitive prices.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" data-testid="navbar-main">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="nav-logo" data-testid="nav-logo">
+                    <!-- <i class="fas fa-laptop-code"></i> -->
+                    <img src="/public/logo.jpeg" alt=" Logo" class="logo-img">
+                    <span>Random IT Solutions</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" data-testid="nav-menu-desktop">
+                    <a href="../index.html" data-testid="link-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-contact">Contact</a>
+                </div>
+
+                <!-- Desktop Actions -->
+                <div class="nav-actions" data-testid="nav-actions-desktop">
+                    <button id="theme-toggle" class="theme-toggle" data-testid="button-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-get-quote">Get Quote</a>
+                </div>
+
+                <!-- Mobile Actions -->
+                <div class="nav-mobile" data-testid="nav-mobile">
+                    <button id="mobile-theme-toggle" class="theme-toggle" data-testid="button-mobile-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-toggle" class="hamburger" data-testid="button-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu" data-testid="nav-menu-mobile">
+                <div class="mobile-menu-content">
+                    <a href="../index.html" data-testid="link-mobile-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-mobile-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-mobile-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-mobile-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-mobile-contact">Contact</a>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-mobile-get-quote">Get
+                        Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" data-testid="section-page-header">
+        <div class="container">
+            <div class="back-button">
+                <a href="../index.html" class="btn btn-secondary" data-testid="button-back-home">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back to Home</span>
+                </a>
+            </div>
+            <h1 class="page-title" data-testid="text-page-title">Laptops</h1>
+            <p class="page-subtitle" data-testid="text-page-subtitle">High-performance laptops for business, gaming, and
+                professional use</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="product-grid-section" data-testid="section-products">
+        <div class="container">
+            <div class="product-grid">
+                <!-- Laptop 1 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-1">
+                    <img src="/public/laptops/laptop1.png"
+                        alt="Business Ultrabook Pro" data-testid="img-product-1">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-1-name">Dell G15-5520</h3>
+                        <ul class="product-features" data-testid="list-product-1-features">
+                            <li>Category: Gaming Series – G15 i5 variant</li>
+                            <li>Processor: Intel Core i5-12500H</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>GPU: RTX 3050 4GB GDDR6</li>
+                            <li>Display: 15.6" FHD, 250 Nits</li>
+                            <li>OS: Windows 11 + MS Office 2021</li>
+                            <li>Accessories: Dell Bag, 1 Year Warranty</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-1">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 2 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-2">
+                    <img src="/public/laptops/laptop2.png"
+                        alt="Gaming Laptop Extreme" data-testid="img-product-2">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-2-name">Dell Alienware 16</h3>
+                        <ul class="product-features" data-testid="list-product-2-features">
+                            <li>Category: Premium Gaming Series</li>
+                            <li>Processor: Intel Core 7-240H</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 1TB SSD</li>
+                            <li>GPU: RTX 5050 8GB</li>
+                            <li>Display: 16" QHD</li>
+                            <li>OS: Windows 11 + MS Office 2024</li>
+                            <li>Accessories: No Dell Bag, 1 Year Warranty</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-2">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 3 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-3">
+                    <img src="/public/laptops/laptop3.png"
+                        alt="Workstation Laptop Pro" data-testid="img-product-3">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-3-name">Dell XPS 13 9315</h3>
+                        <ul class="product-features" data-testid="list-product-3-features">
+                            <li>Category: UltraBook – Thin & Light</li>
+                            <li>Processor: Intel Core i7-1250U</li>
+                            <li>RAM: 16GB LPDDR5</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>GPU: Intel Iris Xe Graphics</li>
+                            <li>Display: 13.4" FHD, 500 nits, InfinityEdge</li>
+                            <li>OS: Windows 11 + MS Office 2021</li>
+                            <li>Accessories: Dell Pro Slim Bag Pack</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-3">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 4 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-4">
+                    <img src="/public/laptops/laptop21-.png"
+                        alt="Student Budget Laptop" data-testid="img-product-4">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-4-name">Surface Laptop Go 3</h3>
+                        <ul class="product-features" data-testid="list-product-4-features">
+                            <li>Category: Surface Laptop</li>
+                            <li>Processor: Intel Core i5-1235U</li>
+                            <li>RAM: 8GB</li>
+                            <li>Storage: 256GB SSD</li>
+                            <li>Display: 12.4" PixelSense</li>
+                            <li>OS: Windows 11 Home</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-4">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 5 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-5">
+                    <img src="/public/laptops/laptop23-.png"
+                        alt="Creative Designer Laptop" data-testid="img-product-5">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-5-name">Surface Pro 9</h3>
+                        <ul class="product-features" data-testid="list-product-5-features">
+                            <li>Category: Surface 2-in-1</li>
+                            <li>Processor: Intel Core i5-1235U</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>Display: 13" PixelSense Touch</li>
+                            <li>OS: Windows 11 Pro</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-5">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 6 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-6">
+                    <img src="/public/laptops/laptop24-.png"
+                        alt="Convertible 2-in-1 Laptop" data-testid="img-product-6">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-6-name">Surface Laptop 5</h3>
+                        <ul class="product-features" data-testid="list-product-6-features">
+                            <li>Category: Surface Laptop</li>
+                            <li>Processor: Intel Core i7-1265U</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>Display: 15" PixelSense</li>
+                            <li>OS: Windows 11 Pro</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-6">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 7 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-7">
+                    <img src="/public/laptops/laptop13-.png"
+                        alt="Enterprise Security Laptop" data-testid="img-product-7">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-7-name">ThinkBook 14 G6 IRL</h3>
+                        <ul class="product-features" data-testid="list-product-7-features">
+                            <li>Category: ThinkBook</li>
+                            <li>Processor: Intel Core i3-1315U</li>
+                            <li>RAM: 8GB</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>Display: 14" WUXGA</li>
+                            <li>Graphic: Integrated Graphics</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-7">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 8 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-8">
+                    <img src="/public/laptops/laptop15-.png"
+                        alt="Developer Laptop Plus" data-testid="img-product-8">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-8-name">IdeaPad Slim 5i</h3>
+                        <ul class="product-features" data-testid="list-product-8-features">
+                            <li>Category: IdeaPad</li>
+                            <li>Processor: Intel Core i5-1240P</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>Display: 15.6" FHD</li>
+                            <li>Graphic: Integrated Intel® UHD Graphics</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-8">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 9 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-9">
+                    <img src="/public/laptops/laptop16-.png"
+                        alt="Multimedia Entertainment Laptop" data-testid="img-product-9">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-9-name">Legion 5 Pro (AMD Ryzen 7)</h3>
+                        <ul class="product-features" data-testid="list-product-9-features">
+                            <li>Category: Legion Gaming</li>
+                            <li>Processor: AMD Ryzen 7 6800H</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 1TB SSD</li>
+                            <li>Display: 16" WQXGA 165Hz</li>
+                            <li>Graphics: NVIDIA RTX 3060 6GB</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-9">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 10 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-10">
+                    <img src="/public/laptops/laptop9-.png"
+                        alt="Rugged Military Laptop" data-testid="img-product-10">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-10-name">MacBook Air M4</h3>
+                        <ul class="product-features" data-testid="list-product-10-features">
+                            <li>Category: MacBook Air</li>
+                            <li>Processor: Apple M4 Chip</li>
+                            <li>RAM: 16GB</li>
+                            <li>Storage: 512GB SSD</li>
+                            <li>Color: Sky Blue</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-10">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 11 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-11">
+                    <img src="/public/laptops/laptop10-.png"
+                        alt="AI Machine Learning Laptop" data-testid="img-product-11">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-11-name">MacBook Air 13-inch</h3>
+                        <ul class="product-features" data-testid="list-product-11-features">
+                            <li>Processor: Intel Core i9-12900HK</li>
+                            <li>RAM & Storage: 64GB DDR4 RAM, 2TB NVMe SSD</li>
+                            <li>Display: 15.6" 4K OLED</li>
+                        </ul>
+                        <button class="btn whatsapp-btn" data-testid="button-whatsapp-11">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Shop on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Laptop 12 -->
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-12">
+                    <img src="/public/laptops/laptop12-.png"
+                        alt="Lightweight Travel Laptop" data-testid="img-product-12">
+                    <div class="product-info">
+                        <h3 class="product-name" data-testid="text-product-12-name">MacBook Pro 14</h3>
+                        <ul class="product-features" data-testid="list-product-12-features">
+                            <ul>
+                                <li>Category: MacBook Pro</li>
+                                <li>Processor: Apple M3 Pro Chip</li>
+                                <li>RAM: 18GB</li>
+                                <li>Storage: 512GB SSD</li>
+                                <li>Color: Space Black</li>
+                            </ul>
+                            <button class="btn whatsapp-btn" data-testid="button-whatsapp-12">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Shop on WhatsApp</span>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV & Security - Random IT Solutions</title>
+    <meta name="description" content="Advanced security systems and surveillance solutions. Professional CCTV cameras, access control systems, and security equipment for businesses and homes.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+     <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" data-testid="navbar-main">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+               <div class="nav-logo" data-testid="nav-logo">
+                    <!-- <i class="fas fa-laptop-code"></i> -->
+                    <img src="/public/logo.jpeg" alt=" Logo" class="logo-img">
+                    <span>Random IT Solutions</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" data-testid="nav-menu-desktop">
+                    <a href="../index.html" data-testid="link-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-contact">Contact</a>
+                </div>
+
+                <!-- Desktop Actions -->
+                <div class="nav-actions" data-testid="nav-actions-desktop">
+                    <button id="theme-toggle" class="theme-toggle" data-testid="button-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-get-quote">Get Quote</a>
+                </div>
+
+                <!-- Mobile Actions -->
+                <div class="nav-mobile" data-testid="nav-mobile">
+                    <button id="mobile-theme-toggle" class="theme-toggle" data-testid="button-mobile-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-toggle" class="hamburger" data-testid="button-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu" data-testid="nav-menu-mobile">
+                <div class="mobile-menu-content">
+                    <a href="../index.html" data-testid="link-mobile-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-mobile-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-mobile-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-mobile-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-mobile-contact">Contact</a>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-mobile-get-quote">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" data-testid="section-page-header">
+        <div class="container">
+            <div class="back-button">
+                <a href="../index.html" class="btn btn-secondary" data-testid="button-back-home">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back to Home</span>
+                </a>
+            </div>
+            <h1 class="page-title" data-testid="text-page-title">CCTV & Security</h1>
+            <p class="page-subtitle" data-testid="text-page-subtitle">Advanced security systems and surveillance solutions</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+   <section class="product-grid-section" data-testid="section-products">
+  <div class="container">
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-1">
+        <img src="/public/cctvbiometric/cctv2-removebg-preview.png"
+             alt="CP Plus Bullet Camera" 
+             data-testid="img-product-1">
+        <div class="product-info">
+          <h3 class="product-name" data-testid="text-product-1-name">CP Plus Bullet Camera</h3>
+          <ul class="product-features" data-testid="list-product-1-features">
+            <li>Resolution: 4MP</li>
+            <li>IR Range: 40m</li>
+            <li>Weatherproof: IP67</li>
+            <li>Support: H.265+ Compression</li>
+          </ul>
+          <button class="btn whatsapp-btn" data-testid="button-whatsapp-1">
+            <i class="fab fa-whatsapp"></i>
+            <span>Shop on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-2">
+        <img src="/public/cctvbiometric/cctv3-removebg-preview.png" 
+             alt="Dahua WiFi Smart Camera" 
+             data-testid="img-product-2">
+        <div class="product-info">
+          <h3 class="product-name" data-testid="text-product-2-name">Dahua WiFi Smart Camera</h3>
+          <ul class="product-features" data-testid="list-product-2-features">
+            <li>Resolution: 2MP HD</li>
+            <li>Connectivity: WiFi</li>
+            <li>Motion Detection, Two-Way Audio</li>
+            <li>Storage: Cloud + MicroSD</li>
+          </ul>
+          <button class="btn whatsapp-btn" data-testid="button-whatsapp-2">
+            <i class="fab fa-whatsapp"></i>
+            <span>Shop on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-3">
+        <img src="/public/cctvbiometric/cctv4-removebg-preview.png" 
+             alt="Honeywell PTZ Camera" 
+             data-testid="img-product-3">
+        <div class="product-info">
+          <h3 class="product-name" data-testid="text-product-3-name">Honeywell PTZ Camera</h3>
+          <ul class="product-features" data-testid="list-product-3-features">
+            <li>Resolution: 5MP Ultra HD</li>
+            <li>Zoom: 20x Optical</li>
+            <li>Pan & Tilt: 360° Coverage</li>
+            <li>Night Vision: 100m IR</li>
+          </ul>
+          <button class="btn whatsapp-btn" data-testid="button-whatsapp-3">
+            <i class="fab fa-whatsapp"></i>
+            <span>Shop on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-4">
+        <img src="/public/cctvbiometric/biometric5-removebg-preview.png" 
+             alt="ESSL X990 Fingerprint Machine" 
+             data-testid="img-product-4">
+        <div class="product-info">
+          <h3 class="product-name" data-testid="text-product-4-name">ESSL X990 Fingerprint Machine</h3>
+          <ul class="product-features" data-testid="list-product-4-features">
+            <li>Fingerprint + RFID Card</li>
+            <li>Display: 3-inch TFT</li>
+            <li>Users: 10,000</li>
+            <li>Connectivity: LAN/USB</li>
+          </ul>
+          <button class="btn whatsapp-btn" data-testid="button-whatsapp-4">
+            <i class="fab fa-whatsapp"></i>
+            <span>Shop on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-5">
+        <img src="/public/cctvbiometric/biometric6-removebg-preview.png" 
+             alt="Realtime T52 Face Recognition" 
+             data-testid="img-product-5">
+        <div class="product-info">
+          <h3 class="product-name" data-testid="text-product-5-name">Realtime T52 Face Recognition</h3>
+          <ul class="product-features" data-testid="list-product-5-features">
+            <li>Face + Fingerprint + RFID</li>
+            <li>Display: 5-inch Touch</li>
+            <li>Capacity: 20,000 Users</li>
+            <li>Connectivity: WiFi + LAN</li>
+          </ul>
+          <button class="btn whatsapp-btn" data-testid="button-whatsapp-5">
+            <i class="fab fa-whatsapp"></i>
+            <span>Shop on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-6">
+        <img src="/public/cctvbiometric/biometric8-removebg-preview.png" 
+             alt="ZKTeco MB360 Access Control" 
+             data-testid="img-product-6">
+        <div class="product-info">
+          <h3 class="product-name" data-testid="text-product-6-name">ZKTeco MB360 Access Control</h3>
+          <ul class="product-features" data-testid="list-product-6-features">
+            <li>Face + Fingerprint + RFID</li>
+            <li>Attendance & Access Control</li>
+            <li>Multi-Verification Modes</li>
+            <li>Connectivity: TCP/IP, USB</li>
+          </ul>
+          <button class="btn whatsapp-btn" data-testid="button-whatsapp-6">
+            <i class="fab fa-whatsapp"></i>
+            <span>Shop on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Scripts -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../js/script.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

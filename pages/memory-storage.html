@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory & Storage - Random IT Solutions</title>
+    <meta name="description" content="High-speed SSDs, HDDs, and RAM modules for optimal performance. Upgrade your system with our premium memory and storage solutions at competitive prices.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+     <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" data-testid="navbar-main">
+        <div class="container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="nav-logo" data-testid="nav-logo">
+                    <!-- <i class="fas fa-laptop-code"></i> -->
+                    <img src="/public/logo.jpeg" alt=" Logo" class="logo-img">
+                    <span>Random IT Solutions</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" data-testid="nav-menu-desktop">
+                    <a href="../index.html" data-testid="link-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-contact">Contact</a>
+                </div>
+
+                <!-- Desktop Actions -->
+                <div class="nav-actions" data-testid="nav-actions-desktop">
+                    <button id="theme-toggle" class="theme-toggle" data-testid="button-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-get-quote">Get Quote</a>
+                </div>
+
+                <!-- Mobile Actions -->
+                <div class="nav-mobile" data-testid="nav-mobile">
+                    <button id="mobile-theme-toggle" class="theme-toggle" data-testid="button-mobile-theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-toggle" class="hamburger" data-testid="button-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu" data-testid="nav-menu-mobile">
+                <div class="mobile-menu-content">
+                    <a href="../index.html" data-testid="link-mobile-home">Home</a>
+                    <a href="../index.html#products" data-testid="link-mobile-products">Products</a>
+                    <a href="../index.html#services" data-testid="link-mobile-services">Services</a>
+                    <a href="../index.html#about" data-testid="link-mobile-about">About</a>
+                    <a href="../index.html#contact" data-testid="link-mobile-contact">Contact</a>
+                    <a href="../index.html#contact" class="btn btn-primary" data-testid="button-mobile-get-quote">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" data-testid="section-page-header">
+        <div class="container">
+            <div class="back-button">
+                <a href="../index.html" class="btn btn-secondary" data-testid="button-back-home">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back to Home</span>
+                </a>
+            </div>
+            <h1 class="page-title" data-testid="text-page-title">Memory & Storage</h1>
+            <p class="page-subtitle" data-testid="text-page-subtitle">High-speed SSDs, HDDs, and RAM modules for optimal performance</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="product-grid-section" data-testid="section-products">
+    <div class="container">
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-1">
+                <img src="/public/memorystorage/memorystroage1-.png" 
+                     alt="Corsair Vengeance LPX 16GB" 
+                     data-testid="img-product-1">
+                <div class="product-info">
+                    <h3 class="product-name" data-testid="text-product-1-name">Corsair Vengeance LPX 16GB</h3>
+                    <ul class="product-features" data-testid="list-product-1-features">
+                        <li>High-performance DDR4 RAM</li>
+                        <li>3200MHz speed</li>
+                        <li>Ideal for gaming and multitasking</li>
+                    </ul>
+                    <button class="btn whatsapp-btn" data-testid="button-whatsapp-1">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Shop on WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-2">
+                <img src="/public/memorystorage/memorystroage2.png" 
+                     alt="G.Skill Trident Z RGB 32GB" 
+                     data-testid="img-product-2">
+                <div class="product-info">
+                    <h3 class="product-name" data-testid="text-product-2-name">G.Skill Trident Z RGB 32GB</h3>
+                    <ul class="product-features" data-testid="list-product-2-features">
+                        <li>DDR4 3600MHz RAM</li>
+                        <li>RGB lighting</li>
+                        <li>Perfect for enthusiasts and high-performance builds</li>
+                    </ul>
+                    <button class="btn whatsapp-btn" data-testid="button-whatsapp-2">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Shop on WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-3">
+                <img src="/public/memorystorage/memorystroage3.png" 
+                     alt="Samsung 980 Pro 1TB NVMe SSD" 
+                     data-testid="img-product-3">
+                <div class="product-info">
+                    <h3 class="product-name" data-testid="text-product-3-name">Samsung 980 Pro 1TB NVMe SSD</h3>
+                    <ul class="product-features" data-testid="list-product-3-features">
+                        <li>Ultra-fast PCIe Gen4 SSD</li>
+                        <li>Boosts system performance</li>
+                        <li>Lightning read/write speeds</li>
+                    </ul>
+                    <button class="btn whatsapp-btn" data-testid="button-whatsapp-3">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Shop on WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-item" data-aos="fade-up" data-aos-delay="100" data-testid="product-item-4">
+                <img src="/public/memorystorage/memorystroage4-.png" 
+                     alt="Western Digital Black SN850 2TB" 
+                     data-testid="img-product-4">
+                <div class="product-info">
+                    <h3 class="product-name" data-testid="text-product-4-name">Western Digital Black SN850 2TB</h3>
+                    <ul class="product-features" data-testid="list-product-4-features">
+                        <li>High-speed NVMe SSD</li>
+                        <li>Designed for gaming & content creation</li>
+                        <li>Reliable and ultra-fast performance</li>
+                    </ul>
+                    <button class="btn whatsapp-btn" data-testid="button-whatsapp-4">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Shop on WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-item" data-aos="fade-up" data-aos-delay="200" data-testid="product-item-5">
+                <img src="/public/memorystorage/memorystroage6-.png" 
+                     alt="Seagate Barracuda 4TB HDD" 
+                     data-testid="img-product-5">
+                <div class="product-info">
+                    <h3 class="product-name" data-testid="text-product-5-name">Seagate Barracuda 4TB HDD</h3>
+                    <ul class="product-features" data-testid="list-product-5-features">
+                        <li>High-capacity HDD</li>
+                        <li>Reliable for backups & mass storage</li>
+                        <li>Ideal for media storage</li>
+                    </ul>
+                    <button class="btn whatsapp-btn" data-testid="button-whatsapp-5">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Shop on WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-item" data-aos="fade-up" data-aos-delay="300" data-testid="product-item-6">
+                <img src="/public/memorystorage/memorystroage5-.png" 
+                     alt="Crucial MX500 1TB SATA SSD" 
+                     data-testid="img-product-6">
+                <div class="product-info">
+                    <h3 class="product-name" data-testid="text-product-6-name">Crucial MX500 1TB SATA SSD</h3>
+                    <ul class="product-features" data-testid="list-product-6-features">
+                        <li>Affordable & reliable SATA SSD</li>
+                        <li>Ideal for upgrading older systems</li>
+                        <li>Proven durability and performance</li>
+                    </ul>
+                    <button class="btn whatsapp-btn" data-testid="button-whatsapp-6">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Shop on WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../js/script.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
